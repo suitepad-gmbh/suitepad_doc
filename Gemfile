@@ -19,7 +19,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'unicorn'
 
 # Use Capistrano for deployment
-gem 'capistrano', group: :development
+gem 'capistrano-rails', group: :development
 
 # Rspec API Documentation
 gem 'apitome', '~> 0.0.4'
