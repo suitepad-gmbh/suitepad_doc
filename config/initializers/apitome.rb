@@ -18,7 +18,7 @@ Apitome.setup do |config|
 
   # The main layout view for all documentation pages. By default this is pretty basic, but you may want to use your own
   # application layout.
-  config.layout = 'application'
+  config.layout = 'apitome/application'
 
   # We're using highlight.js (https://github.com/isagalaev/highlight.js) for code highlighting, and it comes with some
   # great themes. You can check http://softwaremaniacs.org/media/soft/highlight/test.html for themes, and enter the
@@ -27,7 +27,7 @@ Apitome.setup do |config|
 
   # This allows you to override the css manually. You typically want to require `apitome/application` within the
   # override, but if you want to override it entirely you can do so.
-  config.css_override = nil
+  config.css_override = 'application'
 
   # This allows you to override the javascript manually. You typically want to require `apitome/application` within the
   # override, but if you want to override it entirely you can do so.
