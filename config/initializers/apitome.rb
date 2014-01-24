@@ -18,7 +18,6 @@ Apitome.setup do |config|
 
   # The main layout view for all documentation pages. By default this is pretty basic, but you may want to use your own
   # application layout.
-  # config.layout = 'apitome/application'
   config.layout = 'application'
 
   # We're using highlight.js (https://github.com/isagalaev/highlight.js) for code highlighting, and it comes with some
