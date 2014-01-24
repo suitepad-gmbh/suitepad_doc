@@ -12,7 +12,7 @@ set :ssh_options, { port: 2899 }
 set :deploy_to,   '/home/suitepad/web/suitepad_doc'
 set :use_sudo,    false
 
-set :log_level,   :info
+# set :log_level,   :info
 
 
 # Default value for :linked_files is []
@@ -74,7 +74,7 @@ namespace :deploy do
     end
   end
 
-  after :publishing, :restart
+  after :publishing, 'unicorn:restart'
 
   after :restart, :clear_cache do
     on roles(:web), in: :groups, limit: 3, wait: 10 do
