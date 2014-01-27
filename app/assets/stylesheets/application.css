@@ -125,3 +125,8 @@ body.single-page .docs-section section h2.resource-name + article {
   }
 }
 
+/* Mark params as required by appending a red asterisk */
+.params td.required:after {
+  content: '*';
+  color: red;
+}
