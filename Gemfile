@@ -22,4 +22,4 @@ gem 'unicorn'
 gem 'capistrano-rails', group: :development
 
 # Rspec API Documentation
-gem 'apitome', '~> 0.0.4'
+gem 'apitome', github: 'modeset/apitome'
